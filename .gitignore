@@ -1,0 +1,8 @@
+dataset_1.csv
+dataset.csv
+__pycache__/
+models/
+dataset_LSTM.csv
+best_model.h5
+.DS_Store
+Trained_models/
