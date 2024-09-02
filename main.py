@@ -60,6 +60,7 @@ if __name__ == '__main__':
         restore_best_weights=True
     )
     # Create checkpoint call back to save the best model with lowest validation loss
+
     checkpoint = ModelCheckpoint(filepath='best_model.h5',  
                              monitor='val_loss',        
                              save_best_only=True,       
